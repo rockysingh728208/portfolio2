@@ -49,7 +49,7 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-purple-700 shadow-lg">
           <div className="px-4 py-4 space-y-3 flex flex-col items-center">
-            {["Home", "About Me", "Projects", "Contact"].map((item) => (
+            {["Home", "About", "Projects", "Contact"].map((item) => (
               <Link
                 key={item}
                 to={`/${item === "Home" ? "" : item.toLowerCase().replace(" ", "")}`}
