@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <div className="bg-gray-900 text-white">
-      <div className="min-h-screen flex flex-col items-center px-4 pt-12 md:pt-20">
+      <div className="min-h-screen flex flex-col items-center px-4 pt-16 md:pt-20">
         {/* Heading */}
         <h1 className="text-4xl md:text-5xl font-bold mb-6">About Me</h1>
 
