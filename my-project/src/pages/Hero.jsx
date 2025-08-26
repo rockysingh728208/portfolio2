@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import rishi from "../assets/rishi.jpg";
-
+import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <div>
@@ -43,12 +43,13 @@ export default function Hero() {
         </div>
 
      
-        <a
-          href="/contact"
-          className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg shadow-md transition"
-        >
-          Contact Me →
-        </a>
+<Link
+  to="/contact"
+  className="inline-block bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg shadow-md transition"
+>
+  Contact Me →
+</Link>
+
       </div>
 
      
