@@ -9,8 +9,7 @@ const app = express();
 
 app.use(cors({
   origin:"https://portfolio2-1-f5g6.onrender.com",
-   methods: ["GET","POST","PUT","DELETE","OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"]
+  
 }
 ));
 app.use(express.json());
