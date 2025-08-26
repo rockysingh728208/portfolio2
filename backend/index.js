@@ -7,7 +7,9 @@ import userRoute from "./routes/userRoute.js";
 dotenv.config();
 const app = express();
 
-app.use(cors());
+app.use(cors(
+  origin:"https://portfolio2-1-f5g6.onrender.com/"
+));
 app.use(express.json());
 
 
