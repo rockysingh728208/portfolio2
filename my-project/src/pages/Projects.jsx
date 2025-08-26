@@ -3,6 +3,7 @@ import { Contact, ExternalLink, Github } from "lucide-react";
 
 import appointmentImg from "../assets/appoint.png";
 import foodImg from "../assets/foodimage.png";
+import portfolio from "../assets/portfolio2img.png";
 const projects = [
   {
     id: 1,
@@ -17,10 +18,10 @@ const projects = [
     id: 2,
     title: "Portfolio Website",
     description: "Personal portfolio with animations and smooth navigation.",
-    image: "/portfolio.png",
-    demoLink: "https://your-portfolio.com",
-    codeLink: "https://github.com/yourusername/portfolio",
-    tech: ["React", "Tailwind", "Framer Motion"],
+    image: portfolio,
+    demoLink: "https://portfolio2-1-f5g6.onrender.com/",
+    codeLink: "https://github.com/rockysingh728208/portfolio2",
+    tech: ["React", "Tailwind", "node.js,express.js,Mongodb"],
   },
   {
     id: 3,
