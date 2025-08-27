@@ -7,10 +7,37 @@ import userRoute from "./routes/userRoute.js";
 dotenv.config();
 const app = express();
 
+// app.use(cors({
+//   origin:"https://portfolio2-1-f5g6.onrender.com"
+// }
+// ));
+
+
+// ✅ CORS setup
+const allowedOrigins = [
+  "http://localhost:5173",   // development (vite frontend local)
+  "*"  // deployment (frontend vercel url)
+];
+
 app.use(cors({
-  origin:"https://portfolio2-1-f5g6.onrender.com"
-}
-));
+  origin: function (origin, callback) {
+    // allow requests with no origin (like mobile apps or curl)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error("CORS not allowed for this origin"), false);
+    }
+  },
+  credentials: true
+}));
+
+
+
+
+
+
+
 app.use(express.json());
 
 

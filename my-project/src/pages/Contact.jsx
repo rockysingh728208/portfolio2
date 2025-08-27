@@ -14,7 +14,8 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://portfolio2-ea6t.onrender.com/api/contact", form);
+      // const res = await axios.post("https://portfolio2-ea6t.onrender.com/api/contact", form);
+      const res = await axios.post("https://portfolio2-iota-three.vercel.app/api/contact", form);
       if (res.data.success) {
         toast.success("Email sent successfully!");
         setForm({ name: "", email: "", message: "" }); 
