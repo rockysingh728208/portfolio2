@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import rishi from "../assets/collegepic.jpg";
+import rishi from "../assets/dresspic.jpg";
 import { Link } from "react-router-dom";
 export default function Hero() {
   return (
