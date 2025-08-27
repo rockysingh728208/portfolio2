@@ -13,7 +13,7 @@ const app = express();
 // ✅ CORS setup
 const allowedOrigins = [
   "http://localhost:5173",   // development (vite frontend local)
-  "https://vercel.com/rockysingh728208s-projects/portfolio2-dalb"  // deployment (frontend vercel url)
+  "https://portfolio2-dalb.vercel.app"  // deployment (frontend vercel url)
 ];
 
 app.use(cors({
