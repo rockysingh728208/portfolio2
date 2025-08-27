@@ -13,7 +13,7 @@ const app = express();
 // ✅ CORS setup
 const allowedOrigins = [
   "http://localhost:5173",   // development (vite frontend local)
-  "*"  // deployment (frontend vercel url)
+  "https://portfoliosagar-one.vercel.app"  // deployment (frontend vercel url)
 ];
 
 app.use(cors({
