@@ -38,7 +38,7 @@ const Contact = () => {
           <div className="space-y-3">
             <p><span className="font-semibold">📍 Location:</span> Rajpura, SVGOI, Chandigarh</p>
             <p><span className="font-semibold">📞 Phone:</span> 72820 89286</p>
-            <p><span className="font-semibold">✉️ Email:</span> yourmail@example.com</p>
+            <p><span className="font-semibold">✉️ Email:</span> sagarkashyap9155@example.com</p>
           </div>
           <div className="flex space-x-6 mt-6">
             <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer" className="hover:text-gray-400">GitHub</a>
