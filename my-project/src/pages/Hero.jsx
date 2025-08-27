@@ -18,7 +18,7 @@ export default function Hero() {
         </h2>
         <p className="text-gray-400 max-w-lg">
           Specialized in MERN stack with a focus on scalable, high-performance
-          apps. Experienced in real-time technologies like WebSockets and
+          apps. Experienced in real-time technologies like WebSocket and
           WebRTC for interactive user experiences.
         </p>
 
