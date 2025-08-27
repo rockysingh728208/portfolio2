@@ -14,7 +14,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://portfolio2-five-dun.vercel.app/api/contact", form);
+      const res = await axios.post("https://portfolio2-ten-mu.vercel.app/api/contact", form);
       if (res.data.success) {
         toast.success("Email sent successfully!");
         setForm({ name: "", email: "", message: "" }); 
