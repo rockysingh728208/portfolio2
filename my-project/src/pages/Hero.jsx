@@ -1,5 +1,5 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import rishi from "../assets/dress1.jpg";
+import rishi from "../assets/deepak.jpg";
 import { Link } from "react-router-dom";
 export default function Hero() {
   return (
@@ -11,21 +11,31 @@ export default function Hero() {
    
       <div className="flex-1 space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold">
-          I'm <span className="text-purple-600">Vidya Sagar</span>
+          I'm <span className="text-purple-600">Deepa Kumari</span>
         </h1>
-        <h2 className="text-2xl md:text-3xl font-semibold">
+        {/* <h2 className="text-2xl md:text-3xl font-semibold">
           Full-stack MERN Developer | Real-time Web & Scalable App Specialist
-        </h2>
-        <p className="text-gray-400 max-w-lg">
+        </h2> */}
+        <h2 className="text-2xl md:text-3xl font-semibold bg-gradient-to-r from-indigo-400 to-pink-500 bg-clip-text text-transparent">
+  MERN Stack Developer | UI/UX Enthusiast | Real-time App Specialist
+</h2>
+
+        {/* <p className="text-gray-400 max-w-lg">
           Specialized in MERN stack with a focus on scalable, high-performance
           apps. Experienced in real-time technologies like WebSocket and
           WebRTC for interactive user experiences.
-        </p>
+        </p> */}
+        <p className="text-gray-400 max-w-lg">
+  Passionate about crafting clean, modern, and responsive UI designs. Skilled
+  in creating intuitive layouts, smooth animations, and user-friendly
+  experiences using React, Tailwind CSS, and modern design principles.
+</p>
+
 
         {/* Social Links */}
         <div className="flex space-x-4 text-2xl">
           <a
-            href="https://www.linkedin.com/in/vidya-sagar-a8517b338/"
+            href="https://www.linkedin.com/in/deepa-kumari-6ab9ab2a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-500"
@@ -33,7 +43,7 @@ export default function Hero() {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/rockysingh728208"
+            href="https://github.com/deepakumari867"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-500"

@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
-import resume from "../assets/fullresume2.pdf";
+// import resume from "../assets/fullresume2.pdf";
+import resume from "../assets/Deepa Resume.pdf";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +14,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="text-2xl font-bold text-white animate-pulse">
-            <Link to="/">Vidya Sagar</Link>
+            <Link to="/">Deepa Kumari</Link>
           </div>
           <div className="hidden md:flex space-x-8 text-white font-medium items-center">
-            {["Home", "About", "Projects", "Contact"].map((item) => (
+            {/* {["Home", "About", "Projects", "Contact"].map((item) => ( */}
+            {["Home", "About", "Posts", "Contact"].map((item) => (
               <Link
                 key={item}
                 to={`/${item === "Home" ? "" : item.toLowerCase().replace(" ", "")}`}

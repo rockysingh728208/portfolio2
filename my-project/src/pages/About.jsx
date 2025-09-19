@@ -30,21 +30,33 @@ const About = () => {
           <span className="text-green-400"> Backend</span> to deliver complete solutions.
         </p>
 
-        {/* Frontend / Backend Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 w-full max-w-4xl">
-          <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
-            <h2 className="text-2xl font-semibold mb-4 text-blue-400">Frontend</h2>
-            <p className="text-gray-300">
-              Skilled in building responsive UIs with React, Tailwind CSS, and JavaScript.
-            </p>
-          </div>
-          <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition">
-            <h2 className="text-2xl font-semibold mb-4 text-green-400">Backend</h2>
-            <p className="text-gray-300">
-              Experienced in developing APIs and databases using Node.js, Express, and MongoDB.
-            </p>
-          </div>
-        </div>
+      {/* Frontend / Backend / UI Designer Cards */}
+<div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 w-full max-w-6xl">
+  {/* Frontend */}
+  <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition transform hover:rotate-1">
+    <h2 className="text-2xl font-semibold mb-4 text-blue-400">Frontend</h2>
+    <p className="text-gray-300">
+      Skilled in building responsive UIs with React, Tailwind CSS, and JavaScript.
+    </p>
+  </div>
+
+  {/* Backend */}
+  <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition transform hover:-rotate-1">
+    <h2 className="text-2xl font-semibold mb-4 text-green-400">Backend</h2>
+    <p className="text-gray-300">
+      Experienced in developing APIs and databases using Node.js, Express, and MongoDB.
+    </p>
+  </div>
+
+  {/* UI / UX Designer */}
+  <div className="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition transform hover:rotate-1">
+    <h2 className="text-2xl font-semibold mb-4 text-pink-400">UI / UX Design</h2>
+    <p className="text-gray-300">
+      Passionate about crafting intuitive interfaces, modern layouts, and smooth user experiences using Figma & design principles.
+    </p>
+  </div>
+</div>
+
 
         {/* Skills Marquee */}
         <h2 className="text-3xl font-bold mb-6">My Skills</h2>
